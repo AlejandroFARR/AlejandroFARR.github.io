@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>Challenge 1 Ecriptador</title>
+</head>
+<body>
+
+    <div class="logo">
+        <img class="logoImg"src="imagenes/Logo.png" alt="">
+        <h1 class="tittle">Encriptador de Mensajes</h1>
+    </div>
+
+    <div class="container">
+      
+        <div class="left">
+          
+            <textarea name="" id="inputTexto" class="text-input" placeholder="Ingrese su texto aqui" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="right">
+           <img src="imagenes/muneco.png" alt="" id="imgDer">
+           <h1 id="texto">Ningun mensaje fue encontrado</h1>
+    
+           <textarea name="" id="texto2" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar</textarea>
+           
+           <button type="button" id="copiar" onclick="copiar()">¡Copiar!</button>
+        </div>
+        <div class="left-button">
+            
+            <p id="textoSolo"><img src="imagenes/vector.png" alt="advertencia" id="imgVector"> Solo minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        
+        </div>
+
+
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © 2023 Creado por Felipe Alejandro Rodriguez</p>
+</footer>
+</html>
